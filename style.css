@@ -58,8 +58,6 @@ margin-top: 0px;
 }
 
 
-
-
 /* Starting on the body */
 
 #top_image{
@@ -109,32 +107,108 @@ margin-bottom: 0%;
 #Two_lists{
   display: flex;
   flex-direction: row ;
-
-  /* was 25% */
-  column-gap:200px; 
-  
+  padding-top: 20px;  
   justify-content: space-evenly;
 
   /* list-style-type: none; */
-  margin-left: 7%;
- margin-top: 2%;
+ 
+ margin-top: 5px;
   position: absolute;
-  top:150.5%;
-  left: 20%;
-
+  top:950px;
+  left: 15%;
 }
 
 .myUL {
   display: block;
-  padding: 10px;
-  margin-top: 0;
-  /* list-style-type:none;  */
-
-} 
-
-
-#two_list_li_elements{
-  margin-top: 85px;
+  
 }
 
 
+
+#two_list_li_elements{
+ 
+  padding-top: 15px;
+ 
+}
+
+#lined{
+ text-decoration: line-through;
+}
+
+#delicious{
+  font-family: "Sofia", sans-serif;
+  font-style: italic;
+}
+#below_delicious{
+  color: rgb(56, 56, 56);
+  font-weight: 500;
+}
+p{
+  text-indent: 15px;
+  color: rgb(80, 80, 80);
+}
+
+#share{
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  
+}
+#grey-line {
+  background-image: radial-gradient(#dadada 20%, #dadada 20%);
+  background-position: 0 0;
+  background-size: 100px 100px;
+  height: 205px;
+}
+
+#name{
+  font-weight: bolder;
+}
+
+footer{
+  padding-top: 10px;
+  text-align: center;
+  color: #dadada;
+}
+
+
+
+footer p{
+  color: #cacaca;
+  padding: 0px;
+}
+footer img{
+  vertical-align: middle;
+}
+
+/* CSS for the flourish class was Retrieved from https://codepen.io/jmaker/pen/rVNQEK */
+.flourish {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+.flourish:before, 
+.flourish:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  width: 50%;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+.flourish:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+.flourish:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+.copyright{
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  color: #b6b6b6;
+}
