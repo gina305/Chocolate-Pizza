@@ -109,10 +109,7 @@ margin-bottom: 0%;
   flex-direction: row ;
   padding-top: 20px;  
   justify-content: space-evenly;
-
-  /* list-style-type: none; */
- 
- margin-top: 5px;
+  margin-top: 5px;
   position: absolute;
   top:950px;
   left: 15%;
@@ -120,15 +117,10 @@ margin-bottom: 0%;
 
 .myUL {
   display: block;
-  
 }
 
-
-
 #two_list_li_elements{
- 
   padding-top: 15px;
- 
 }
 
 #lined{
